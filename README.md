@@ -64,7 +64,7 @@ Posts the JSON alert to the published Airia AI agent API endpoint. Receives and 
 
 ### 🔴 SOC Playbook – AI Agent System Prompt
 
-Wrote a custom SOC playbook used to train the Airia AI agent. The playbook defines the agent's behavior across ten sections:
+Implemented and configured a SOC playbook to train the Airia AI agent. The playbook defines the agent's behavior across ten sections:
 
 - Input validation – required JSON fields check
 - Threat classification – Brute Force, Scanning, Suspicious Volume, Malware Communication, Benign Noise
