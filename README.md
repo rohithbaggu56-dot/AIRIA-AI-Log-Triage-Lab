@@ -43,7 +43,7 @@ Airia AI Agent (Junior SOC Analyst v2.00)
 
 ### 🔴 Python Automation Pipeline
 
-Built a five-stage Python script that runs end-to-end from traffic capture to AI triage without manual intervention.
+Followed and implemented a five-stage Python automation workflow that runs end-to-end from traffic capture to AI triage without manual intervention.
 
 **Stage 1 – Traffic Capture**
 Uses tshark to capture ICMP traffic on eth0 targeting the internal server for a defined time window. Saves output as traffic.pcap.
@@ -122,8 +122,8 @@ Wrote a custom SOC playbook used to train the Airia AI agent. The playbook defin
 
 - 📌 MITRE: `T1498` Network Denial of Service · `T1046` Network Service Scanning
 - Note: Confidence level was Low because the alert JSON was missing source_host
-  and protocol fields. This reflects a real gap in the detection script that
-  would need to be fixed in a production environment.
+  and protocol fields. In a real SOC environment these fields would need to be
+  included for a complete triage assessment.
 
 ---
 
@@ -144,8 +144,7 @@ AIRIA-AI-SOC-Triage-Lab/
 ---
 
 ## 🔎 What This Lab Demonstrates
-
-- Python scripting for security automation (tshark, requests, subprocess, json, uuid)
+- Python script comprehension and implementation for security automation
 - Structured alert generation following SOC alert format standards
 - REST API integration for alert routing
 - Custom AI agent training using a structured SOC playbook
